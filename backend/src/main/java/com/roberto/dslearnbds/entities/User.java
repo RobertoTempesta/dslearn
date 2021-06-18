@@ -63,6 +63,15 @@ public class User implements UserDetails {
             ).collect(Collectors.toList());
     }
 
+	public boolean hasHole(String roleName) {
+		for(Role role: this.roles) {
+			if (role.getAuthority().equals(roleName)){
+				return true;
+			}
+		}
+		return false;
+	}
+
     @Override
     public String getUsername() {
         return email;
