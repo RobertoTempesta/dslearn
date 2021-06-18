@@ -1,4 +1,4 @@
-package com.devsuperior.dslearnbds.entities;
+package com.roberto.dslearnbds.entities;
 
 import java.time.Instant;
 

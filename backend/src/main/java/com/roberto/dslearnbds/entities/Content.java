@@ -1,4 +1,4 @@
-package com.devsuperior.dslearnbds.entities;
+package com.roberto.dslearnbds.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
